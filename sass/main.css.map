@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sources":["utils/_veriables.scss","main.css"],"names":[],"mappings":"AAAA;EACE,wCAAA;EACA,2BAAA;EACA,+BAAA;EACA,uBAAA;EACA,gCAAA;EACA,+BAAA;ACCF","file":"main.css"}
