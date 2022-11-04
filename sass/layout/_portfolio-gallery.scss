@@ -9,10 +9,8 @@ color: var(--secondary-color-font);}
 margin-bottom: 4px;
 
 font-family: var(--main-font-family);
-font-weight: 700;
+@include font(700 18px 36px);
 letter-spacing: 0.06em;
-font-size: 18px;
-line-height: 2.0;
 color: var(--basic-color-font);}
 
 .filter {
@@ -28,9 +26,7 @@ gap: 9px;
   border: var(--basic-color-font);
 
   font-family: var(--main-font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  @include font(500 16px 26px);
   text-align: center;
   cursor: pointer;
 
@@ -55,8 +51,8 @@ flex-wrap: wrap;
 gap: 30px;
 }
 
-.example-work-items:not(:3n) {
-flex-basis: calc(100%-60px)/3;
+.example-work-items:last-child(:3n) {
+flex-basis: calc(100% - 60px)/3;
 margin-right: 30px;
 margin-bottom: 20px;
 }
@@ -97,9 +93,7 @@ transition: transform 250ms ease;
 
 .secondary-label {
 font-family: var(--main-font-family);
-font-weight: 400;
-font-size:18px;
-line-height: 1.55;
+@include font(400 18px 28px);
 color:#FFFFFF;
 align-content: center;
 padding-top: 64px;

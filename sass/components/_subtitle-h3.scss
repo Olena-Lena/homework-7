@@ -1,10 +1,8 @@
 .subtitle {
   margin-bottom: 10px;
   
+  @include font(700 14px 16px);
   font-family: var(--main-font-family);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   text-transform: uppercase;
   
   color: var(--basic-color-font);}
