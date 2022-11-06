@@ -9,7 +9,7 @@ color: var(--secondary-color-font);}
 margin-bottom: 4px;
 
 font-family: var(--main-font-family);
-@include font(700 18px 36px);
+@include font(700, 18px, 36px);
 letter-spacing: 0.06em;
 color: var(--basic-color-font);}
 
@@ -22,23 +22,18 @@ gap: 9px;
 
 .filter__btn {
   padding:6px 22px;
-
   border: var(--basic-color-font);
-
   font-family: var(--main-font-family);
-  @include font(500 16px 26px);
+  @include font(500, 16px, 26px);
   text-align: center;
   cursor: pointer;
-
   color: var(--basic-color-font);
   background: #F5F4FA;
-
   border-radius: 4px;
-
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter__btn:hover,
+.filter__btn:focus {
   background: var(--color-accent);
   color: var(--secondary-color-accent);
   border: var(--color-accent);

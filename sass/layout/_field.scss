@@ -18,7 +18,7 @@
   }
   
   .label {
-  @include font(700 14px 16px);
+  @include font(700, 14px, 16px);
   font-family: var(--main-font-family);
   color: var(--secondary-color-accent);
   }

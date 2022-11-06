@@ -16,7 +16,7 @@
   display: block;
   margin-bottom: 20px;
   
-  @include font(700 26px 31px);
+  @include font(700, 26px, 31px);
   font-family: 'Raleway';
   font-style: normal;
   letter-spacing: 0.03em;

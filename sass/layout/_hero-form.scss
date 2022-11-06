@@ -69,7 +69,7 @@
     margin-bottom: 12px;
     font-family: var(--main-font-family);
     font-style: normal;
-    @include font(700 20px 23px);
+    @include font(700, 20px, 23px);
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -80,7 +80,7 @@
   margin-bottom: 6px;
     font-family: var(--main-font-family);
     font-style: normal;
-    @include font(400 12px 14px);
+    @include font(400, 12px, 14px);
     letter-spacing: 0.01em;
     
     color: var(--secondary-color-font);
@@ -112,7 +112,7 @@
   align-items: center;
   font-family: var(--main-font-family);
   font-style: normal;
-  @include font(400 14px 24px);
+  @include font(400, 14px, 24px);
   letter-spacing: 0.03em;
   
   color: #757575;}
