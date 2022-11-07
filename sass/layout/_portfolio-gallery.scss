@@ -9,7 +9,7 @@ color: var(--secondary-color-font);}
 margin-bottom: 4px;
 
 font-family: var(--main-font-family);
-@include font(700, 18px, 36px);
+@include font(700, 18px, 2.0);
 letter-spacing: 0.06em;
 color: var(--basic-color-font);}
 
@@ -24,7 +24,7 @@ gap: 9px;
   padding:6px 22px;
   border: var(--basic-color-font);
   font-family: var(--main-font-family);
-  @include font(500, 16px, 26px);
+  @include font(500, 16px, 1.62);
   text-align: center;
   cursor: pointer;
   color: var(--basic-color-font);
@@ -46,7 +46,7 @@ flex-wrap: wrap;
 gap: 30px;
 }
 
-.example-work-items:last-child(:3n) {
+.example-work-items:not(3n) {
 flex-basis: calc(100% - 60px)/3;
 margin-right: 30px;
 margin-bottom: 20px;
@@ -88,7 +88,7 @@ transition: transform 250ms ease;
 
 .secondary-label {
 font-family: var(--main-font-family);
-@include font(400 18px 28px);
+@include font(400, 18px, 1.55);
 color:#FFFFFF;
 align-content: center;
 padding-top: 64px;

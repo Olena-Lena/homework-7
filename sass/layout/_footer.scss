@@ -103,7 +103,7 @@
   .contact-form-input-footer::placeholder {
     font-family: var(--main-font-family);
     font-style: normal;
-    @include font(400, 16px, 20px);
+    @include font(400, 16px, 1.25);
     letter-spacing: 0.03em;
     
     color: rgba(255, 255, 255, 0.6);

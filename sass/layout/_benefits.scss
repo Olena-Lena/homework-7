@@ -6,7 +6,7 @@ margin-right: 30px;
 
 .subtitle-team {
   margin-bottom: 10px;
-  @include font(500, 16px, 19px);
+  @include font(500, 16px, 1.18);
   font-family: var(--main-font-family);
   text-align: center;
 
