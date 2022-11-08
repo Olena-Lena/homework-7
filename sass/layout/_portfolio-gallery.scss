@@ -46,9 +46,8 @@ flex-wrap: wrap;
 gap: 30px;
 }
 
-.example-work-items:not(3n) {
+.example-work-items {
 flex-basis: calc(100% - 60px)/3;
-margin-right: 30px;
 margin-bottom: 20px;
 }
 

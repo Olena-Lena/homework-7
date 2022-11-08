@@ -254,7 +254,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   font-family: var(--main-font-family);
-  font-style: Black;
+  font-style: normal;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -1044,10 +1044,9 @@ footer {
   gap: 30px;
 }
 
-.example-work-items:not(3n) {
+.example-work-items {
   -ms-flex-preferred-size: calc(100% - 60px)/3;
       flex-basis: calc(100% - 60px)/3;
-  margin-right: 30px;
   margin-bottom: 20px;
 }
 
